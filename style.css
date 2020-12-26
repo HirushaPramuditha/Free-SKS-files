@@ -1,0 +1,45 @@
+body{
+    background-color: #03071e;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 100px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+#center{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+a:link{
+    text-decoration: none;
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+  

@@ -18,3 +18,12 @@
     background-color: #1f2d41;
     z-index: -2;
 }
+
+section {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

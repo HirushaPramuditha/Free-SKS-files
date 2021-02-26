@@ -1,9 +1,12 @@
-function showAlert() {
-    let thankAlert = document.getElementById('alert');
-    if (thankAlert.style.display === 'none') {
-        thankAlert.style.display = 'block';
-        setTimeout(function() {
-            thankAlert.style.display = 'none';
-        }, 10000);
-    }
+const form = document.getElementById('contact');
+const alert = document.getElementById('alert');
+
+form.onsubmit = submit;
+
+function submit(event) {
+  alert.removeAttribute('hidden');
+  event.preventDefault();
+  setTimeout(function () {
+    alert.remove();
+  }, 10000);
 }
